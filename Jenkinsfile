@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AWS_DEFAULT_REGION = "us-east-1"
-        AWS_CREDENTIALS_ID = "aws-eks"   // Jenkins AWS credentials ID
+        AWS_CREDENTIALS_ID = "aws-creds"   // Jenkins AWS credentials ID
         CLUSTER_NAME = "jenkins-eks-cluster"
     }
 
